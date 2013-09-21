@@ -1,0 +1,25 @@
+/*STSTEPHENSNY*/
+body {background: #FFFFFF url() fixed no-repeat; font-family: Arial, Helvetica, sans-serif; font-size:12px; color: #333333; margin:0 auto; padding:0; background-repeat: no-repeat; text-align:justify; vertical-align:top; width:750px;}
+a:link, a:visited {color: #CC0000; text-decoration: none;}
+a:hover {text-decoration: underline; color: #CC0000;}
+.footer {color:#999999; font-size:10px; margin:10px 0 0 0; padding:5px 0 5px 0; border-top:1px solid; border-color:#CCCCCC; width:750px;}
+.footerLeft {text-align:left; float:left;}
+.footerRight {text-align:right; float:right;}
+.sidebar {font-size:11px; vertical-align:top; text-align:left; width:180px;}
+.header {border-bottom:1px solid #CCCCCC; font-weight:bold;}
+.subheader {color:#CC0000; font-weight:bold;}
+.menu:link, .menu:visited {font-family:Garamond; color:#CC0000; font-weight:bold; font-size:14px; text-decoration:none;}
+.menu:hover {font-family:Garamond; color:#C0C0C0; font-weight:bold; font-size:14px; text-decoration:none;}
+.linkLeft {text-align:left; float:left; margin-right:40px;}
+
+/*TWITTER-BOOTSTRAP*/
+.tabs,.pills{margin:0; padding:0; list-style:none;zoom:1;}
+.tabs:before,.pills:before,.tabs:after,.pills:after{display:table;content:"";*display:inline;zoom:1;}
+.tabs:after,.pills:after{clear:both;}
+.tabs>li,.pills>li{float:left;}
+.tabs>li>a,.pills>li>a{display:block; width:120px;}
+.pills a{margin:0; padding:0 15px; text-shadow:0 1px 1px #ffffff; line-height:30px;-webkit-border-radius:15px;-moz-border-radius:15px;border-radius:15px; font-family:Garamond; font-size:14px;}
+.pills a:hover{background:#990000;color:#ffffff;text-decoration:none;text-shadow:0 1px 1px rgba(0, 0, 0, 0.25); font-family:Garamond; font-size:14px;}
+.pills .active a{background:#CC0000;color:#ffffff;text-shadow:0 1px 1px rgba(0, 0, 0, 0.25); font-family:Garamond; font-size:14px;}
+.tab-content>*,.pill-content>*{display:none;}
+.tab-content>.active,.pill-content>.active{display:block;}

@@ -5,7 +5,7 @@
 <meta name="Author" content="Chris Thomas" />
 <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Felipa">
 <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=IM Fell English SC">
-<link rel="shortcut icon" href="http://ststephensorthodoxchurchny.org/favicon.png">
+<link rel="shortcut icon" href="https://raw.github.com/theuiguru/ststephensny/master/favicon.png">
 <link href="http://getbootstrap.com/dist/css/bootstrap.css" rel="stylesheet" type="text/css">
 <link href="http://getbootstrap.com/examples/sticky-footer-navbar/sticky-footer-navbar.css" rel="stylesheet" type="text/css">
 <link href="sslicstyle.css" rel="stylesheet" type="text/css">
@@ -36,7 +36,6 @@
                   <li><a href="#" onClick="show_div('yas'); return false;">YAS</a></li>
                 </ul>
               </li>
-              <li><a href="#" onClick="show_div('media'); return false;">Media</a>
                 <!--<ul class="dropdown-menu">
                   <li><a href="#" onClick="show_div('photos'); return false;">Pictures</a></li>
                   <li class="divider"></li>
@@ -46,14 +45,23 @@
               <li><a href="#" onClick="show_div('links'); return false;">Resources</a></li>
               <li><a href="#" onClick="show_div('contact'); return false;">Contact</a></li>
             </ul>
+            <ul class="nav navbar-nav navbar-right">
+              <li><img src="http://www2.wcoil.com/~orthodox/images/st%20stephen/StStephenIconForWeb.jpg" width="35"></li>
+            </ul>
           </div><!--/.nav-collapse -->
         </div>
       </div>
       <!-- Begin page content -->
       <div class="container">
-        <div id="home" class="home"><h3>Welcome to Our Parish!</h3>
-          New welcome message will be updated soon...
-        </div>
+<div id="home" class="home">
+  <div class="jumbotron">
+    <div class="container">
+      <h1>Welcome to Our Parish!</h1>
+      <p>858 Roosevelt Street, Franklin Square, NY | <b>Vicar</b>: Rev.Fr.Dr.C.K.Rajan</p>
+      <p><a class="btn btn-danger btn-lg" onClick="show_div('about'); return false;">Learn more &raquo;</a></p>
+    </div>
+  </div>
+</div>
 <div id="about" class="about"><h3>About Our Parish</h3>
 <p>St. Stephen's Orthodox Church of India, Long Island, New York is currently located at the Faith Chapel in the Creedmoor Campus, in Queens Village, New York. This parish is a part of the Malankara Orthodox Syrian Church, and under the jurisdiction of the Northeast American Diocese.</p>
 <p>The Supreme Ecclesiastical Head of our Church is His Holiness Moran Mar Baselious Marthoma Paulose II, 91st Successor to the Apostolic Throne of St. Thomas and the Malankara Metropolitan. Our Former Diocesan Metropolitan is His Grace Mathews Mar Barnabas & His Grace Zachariah Mar Nicholovos is the Metropolitan of the Northeast American Diocese. Fr. C.K. Rajan Ph. D. was appointed as the vicar by the then Diocesan Metropolitan L.L. Mar Makarios in July 1986.</p>
@@ -71,25 +79,30 @@
   <p><a href="#" onClick="show_div('ss'); return false;">Sunday School</a></p>
   <p><a href="#" onClick="show_div('yas'); return false;">YAS</a></p>
 </div>
-<div id="admin" class="admin"><h3>Parish Administration</h3>
-    <p><b>Vicar &amp; President</b>: The Rev. Fr. Dr. C.K. Rajan</p>
-    <p><b>Secretary</b>: Mr. Jose Yohannan</p>
-    <p><b>Treasurer</b>: Mr. Mathew John</p>
-    <p><b>Joint Secretary</b>: N/A</p>
-    <p><b>Joint Treasurer</b>: N/A</p>
-    <p><b>Committee</b>:<br/>N/A</p>
-    <p><b>Board of Trustees</b>:<br/>N/A</p>
-    <p><b>Sunday School Headmistress</b>: Mrs. Achamma Mathew</p>
-    <p><b>Choir Coordinator(s)</b>: Mrs. Monikutty T. Varughese</p>
-    <p><b>Martha Mariam Samajam Secretary</b>: Mrs. Suzy Mathew</p>
-    <p><b>YAS Secretary</b>: Ms. Divya Mathew</p>
-    <p><b>MGOCSM Representatives</b>: Mr. Kevin Varghese and Ms. Jennifer Joe</p>
-    <p><b><i>The Martyr</i> Editor</b>: Mr. Jenson M. John</p>
+<div id="admin" class="admin row"><h3>Parish Administration</h3>
+    <div class="col-md-6">
+      <p><b>Vicar &amp; President</b>: The Rev. Fr. Dr. C.K. Rajan</p>
+      <p><b>Secretary</b>: Mr. Jose Yohannan</p>
+      <p><b>Treasurer</b>: Mr. Philip Mathai</p>
+      <p><b>Joint Secretary</b>: N/A</p>
+      <p><b>Joint Treasurer</b>: N/A</p>
+      <p><b>Committee Members</b>:<br/>N/A</p>
+      <p><b>Board of Trustees</b>:<br/>N/A</p>
+    </div>
+    <div class="col-md-6">
+      <p><b>Sunday School Headmistress</b>: Mrs. Achamma Mathew</p>
+      <p><b>Choir Coordinator(s)</b>:<br/>Mrs. Monikutty T. Varughese<br/>Mr. Thomas Mathai</p>
+      <p><b>Martha Mariam Samajam Secretary</b>: Mrs. Suzy Mathew</p>
+      <p><b>YAS Secretary</b>: Ms. Divya Mathew</p>
+      <p><b>MGOCSM Representative(s)</b>:<br/>Ms. Anisha Jacob<br/>Ms. Ashley Varkey<br/>Ms. Jennifer Joe (Area Representative)</p>
+      <p><b><i>The Martyr</i> Editor</b>: Mr. Jenson M. John</p>
+      <p><b>Calendar Editor</b>: Mr. Madhu Mathew</p>
+    </div>
 </div>
 <div id="choir" class="choir"><h3>Choir</h3><p>Practice is held every Saturday at around 5PM. For more info, please contact Choir Coordinator(s).</p></div>
 <div id="mms" class="mms"><h3>Martha Mariam Samajam</h3><p><b>Secretary</b>: Mrs. Suzy Mathew</p><p>More info coming soon...</p></div>
 <div id="mgocsm" class="mgocsm"><h3>Mar Gregorios Orthodox Christian Student Movement (MGOCSM)</h3>
-    <p><b>Parish Representatives</b>: Mr. Kevin Varghese and Ms. Jennifer Joe</p>
+    <p><b>MGOCSM Representative(s)</b>: Ms. Jennifer Joe</p>
     <p>Visit <a href="http://mgocsmamerica.com" target="_blank">MGOCSMAmerica.com</a> for national and area wide news and updates.</p></div>
 <div id="sls" class="sls"><h3>Silver League of St. Stephen's (SLS)</h3><p>We have meetings every Saturday at the church.</p></div>
 <div id="ss" class="ss"><h3>Sunday School</h3><p><b>Headmistress</b>: Mrs. Achamma Mathew</p><p><b>Teachers</b>:
@@ -109,7 +122,7 @@
     <tr><td>12th Grade</td><td></td></tr></table>
 </p></div>
 <div id="yas" class="yas"><h3>Young Adults of St. Stephen's (YAS)</h3><p><b>Secretary</b>: Ms. Divya Mathew</p><p>We have meetings every first Sunday of every month, in Achen's office.</p></div>
-<div id="media" class="media"><h3>Multimedia</h3>
+<!--<div id="media" class="media"><h3>Multimedia</h3>
   <p><b>Pictures</b><br/>
   <a href="https://picasaweb.google.com/dmathew22/Superbowl2011?authkey=Gv1sRgCMLMqve6l53w_AE&feat=email#" target="_blank">SuperBowl 2011 (6/18/2011)</a><br/>
   <a href="http://share.shutterfly.com/action/welcome?sid=0AYsmLFw3ZNGTqQ&emid=shareprintviewer&linkid=link5&cid=EM_sharview" target="_blank">Silver Jubilee (25th Anniversary) (4/24/2011)</a><br/>
@@ -124,9 +137,21 @@
   <p><b>Videos</b><br/><a href="http://youtu.be/e3ERnMZgKp4" target="_blank">2010 Mission Trip to Wichita Presentation</a></p>
 
   <p><a href="http://www.neamericandiocese.org/images.aspx" target="_blank">Click here to view further pictures and other media within our Diocese and Church!</a></p>
-</div>
-<div id="links" class="links"><h3>Resources</h3><div class="left">
-  <p><a href="http://www.malankaraorthodoxchurch.in" target="_blank">The Malankara Orthodox Syrian Church</a><br/>
+</div>-->
+<div id="links" class="links row"><h3>Resources</h3>
+  <div class="col-md-6"><p><b>Pictures</b><br/>
+  <a href="https://picasaweb.google.com/dmathew22/Superbowl2011?authkey=Gv1sRgCMLMqve6l53w_AE&feat=email#" target="_blank">SuperBowl 2011 (6/18/2011)</a><br/>
+  <a href="http://share.shutterfly.com/action/welcome?sid=0AYsmLFw3ZNGTqQ&emid=shareprintviewer&linkid=link5&cid=EM_sharview" target="_blank">Silver Jubilee (25th Anniversary) (4/24/2011)</a><br/>
+  <a href="http://share.shutterfly.com/share/received/welcome.sfly?fid=4ab53274efbb0a3d&sid=0CatWLNw1bsXjw" target="_blank">Youth Potluck Part I (11/25/2010)</a> | <a href="https://picasaweb.google.com/dmathew22/ThanksgivingDinner2010" target="_blank">Part II (11/25/2010)</a><br/>
+  <a href="https://picasaweb.google.com/dmathew22/Superbowl2010?authkey=Gv1sRgCLrvmd3UuI_hwAE&feat=email#" target="_blank">SuperBowl 2010 (8/7/2010)</a><br/>
+  <a href="https://picasaweb.google.com/dmathew22/CarWash2010" target="_blank">Car Wash 2010 (7/25/2010)</a><br/>
+  <a href="http://share.shutterfly.com/share/received/welcome.sfly?fid=9d4044baa4fbc638&sid=0IYt27lw5aMXwg" target="_blank">Sunday School Day &amp; Car Wash Part I (9/12-13/2009)</a> | <a href="https://picasaweb.google.com/dmathew22/SundaySchoolDayAndCarWash?authkey=Gv1sRgCKO6usnMh7-DeA&feat=email#" target="_blank">Part II (9/12-13/2009)</a><br/>
+  <a href="http://share.shutterfly.com/share/received/welcome.sfly?fid=370ddf2565573488&sid=0IYt27lw5aMXtQ" target="_blank">SuperBowl 2009 (6/13/2009)</a><br/>
+  <a href="http://share.shutterfly.com/share/received/welcome.sfly?fid=aee5699624c61efe&sid=0IYt27lw5aMXpA" target="_blank">Mar Makarios Memorial Service (2/28/2009)</a><br/>
+  <a href="http://stotsindianorthodox.blogspot.com/2007/11/st-stephens-church-long-island-ny.html" target="_blank">MGOCSM Trip to St. Tikhon's Seminary (11/4/2007)</a></p>
+  <p><b>Videos</b><br/><a href="http://youtu.be/e3ERnMZgKp4" target="_blank">2010 Mission Trip to Wichita Presentation</a></p></div>
+  <div class="col-md-6">
+  <p><b>Miscellaneous</b><br/><a href="http://www.malankaraorthodoxchurch.in" target="_blank">The Malankara Orthodox Syrian Church</a><br/>
   <a href="http://www.neamericandiocese.org" target="_blank">Northeast American Diocese</a><br/>
   <a href="http://www.ds-wa.org" target="_blank">Southwest American Diocese</a><br/>
   <a href="http://www.indianorthodoxsundayschool.org" target="_blank">Diocesan Sunday School</a><br/>
@@ -136,8 +161,8 @@
   <a href="http://www.twitter.com/orthodukso" target="_blank">Orthodukso</a><br/>
   <a href="http://www.facebook.com/group.php?gid=5563224535" target="_blank">St. Stephen's Facebook Group</a><br/>
   <a href="http://www.ststephensorthodoxchurchny.org/superbowl">St. Stephen's SUPER-BOWL Tournament</a><br/>
-  <a href="http://dl.dropbox.com/u/19928678/Fr.%20Aju%20Mathews%20-%20Homily%201%3A8%3A12.m4a" target="_blank">Feast of St. Stephen Homily by Fr. Aju Mathews</a></p></div><div class="right">
-  <p><b>Parish Links</b>:<br/><a href="http://www.stthomasbaltimore.com" target="_blank">St. Thomas, Baltimore</a><br/>
+  <a href="http://dl.dropbox.com/u/19928678/Fr.%20Aju%20Mathews%20-%20Homily%201%3A8%3A12.m4a" target="_blank">Feast of St. Stephen Homily by Fr. Aju Mathews</a>
+  <br/><a href="http://www.stthomasbaltimore.com" target="_blank">St. Thomas, Baltimore</a><br/>
   <a href="http://www.st-thomas-orthodox-dc.org" target="_blank">St. Thomas, Washington D.C.</a><br/>
   <a href="http://www.hcnycmission.org" target="_blank">Holy Cross Mission Congregation</a><br/>
   <a href="http://www.stbasilchurchny.org" target="_blank">St. Basil's, Franklin Square</a><br/>
@@ -159,42 +184,57 @@
   <a href="http://www.stmarysdallas.org" target="_blank">St. Mary's, Farmer's Branch</a><br/>
   <a href="http://www.indianorthodoxchurchofco.org" target="_blank">St. Thomas, Denver</a>
 </p></div></div>
-<div id="contact" class="contact"><h3>Contact Information</h3>
-  <div class="left">
-    <p><b>Current Location</b>:<br/>Faith Chapel, Creedmoor Campus<br/>80-49 Winchester Blvd<br/>Queens Village, NY 11427<br/><a href="http://goo.gl/maps/Cqqiu" target="_blank"><img src="https://maps.googleapis.com/maps/api/staticmap?center=40.73968317807663,-73.73131979088649&zoom=13&size=300x150&sensor=true&markers=size:mid%7C40.73968317807663,-73.73131979088649" alt="Get Directions" title="Get Directions" width="300" height="150"/></a></p><p><b>New Place of Worship</b>:<br/>858 Roosevelt St<br/>Franklin Square, NY 11010<br/><a href="http://goo.gl/maps/l5eOx" target="_blank">Get Directions</a></p><p><b>Mailing Address</b>:<br/>St. Stephens Orthodox Church of India Inc.<br/>P.O. Box 117<br/>Albertson, NY 11507</p>
-  </div><div class="right">
-    Contact form coming soon...
+<div id="contact" class="contact row"><h3>Contact Information</h3>
+  <div class="col-md-6">
+    <p><b>Current Location</b>:<br/>858 Roosevelt Street<br/>Franklin Square, NY 11010<br/><a href="http://goo.gl/maps/l5eOx" target="_blank"><img src="https://maps.googleapis.com/maps/api/staticmap?center=858%20Roosevelt%20Street,%20Franklin%20Square,%20NY&zoom=15&size=300x150&sensor=true&markers=color:red" alt="Get Directions" title="Get Directions" width="300" height="150"/></a></p><p><b>Mailing Address</b>:<br/>St. Stephens Orthodox Church of India Inc.<br/>P.O. Box 117<br/>Albertson, NY 11507</p>
+  </div><div class="col-md-6">
+    <form role="form">
+      <div class="form-group">
+        <label for="exampleInputName">Name</label>
+        <input type="name" class="form-control" id="exampleInputName" placeholder="Enter name" disabled>
+      </div>
+      <div class="form-group">
+        <label for="exampleInputEmail1">Email</label>
+        <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter email" disabled>
+      </div>
+      <div class="form-group">
+        <label for="exampleInputComments">Feedback</label>
+        <textarea class="form-control" rows="3" disabled></textarea>
+      </div>
+      <button type="submit" class="btn btn-danger" disabled>Submit</button>
+      <button type="reset" class="btn btn-warning" disabled>Reset</button>
+    </form>
   </div>
 </div>
 
 <div class="row">
-        <div class="col-lg-4">
-          <div class="slideshow">
-            <img src="images/logo.jpg">
-            <img src="http://neamericandiocese.org/multimedia/images/parishs/large/parish-st-stephen-s-orthodox-church-33.jpg">
-            <img src="images/newchurch1.jpg">
-            <img src="images/contractsign.jpg">
-            <img src="images/newchurch2.jpg">
-            <img src="images/newchurch3.jpg">
-            <img src="images/sundayschool.jpg">
-            <img src="http://distilleryimage8.ak.instagram.com/95caf3e4683411e28fa722000a1fbcea_7.jpg">
-            <img src="http://distilleryimage5.ak.instagram.com/2286ab9c1c9611e2822f22000a9f09ca_7.jpg">
-            <img src="http://distilleryimage9.ak.instagram.com/e77d976c34b011e28b4622000a9e2975_7.jpg">
-          </div>
-        </div>
-        <div class="col-lg-4 midhead">
-          <h4>Worship Schedule</h4>
-          <p><b><i>Sundays</i></b><br/>6:45AM - Morning Prayers (Matins)<br/>7:15AM - Holy Qurbana<br/>9:30AM-10:30AM - Sunday School, Youth, Committee, etc.</p><p><b><i>Saturdays</i></b><br/>SLS, Choir practice, etc.</p>
-       </div>
-        <div class="col-lg-4 rthead">
-          <h4>Calendar</h4>
-          <p><iframe src="https://www.google.com/calendar/embed?showTitle=0&amp;showPrint=0&amp;showTabs=0&amp;showCalendars=0&amp;mode=AGENDA&amp;height=400&amp;wkst=1&amp;bgcolor=%23FFFFFF&amp;src=revcmatjr%40gmail.com&amp;color=%232952A3&amp;ctz=America%2FNew_York" style=" border-width:0 " width="330" height="300" frameborder="0" scrolling="no"></iframe><div align="center"><a href="https://www.stmarysnova.org/indian-orthodox-lectionary#now" target="_blank">View Lectionary</a></div></p>
-        </div>
-        <div class="col-lg-4">
-          <h3>Daily Scripture</h3>
-          <p><script type="text/javascript" src="http://www.christnotes.org/syndicate.php?content=dbv&amp;type=js2&amp;tw=200&amp;tbg=FFFFFF&amp;bw=0&amp;bc=000000&amp;ta=C&amp;tc=000000&amp;tf=Verdana&amp;ts=10&amp;ty=B&amp;va=L&amp;vc=000000&amp;vf=Verdana&amp;vs=10&amp;tt=5&amp;trn=NIV"></script></p>
-       </div>
-      </div>
+  <!--<div class="col-md-4">
+    <div class="slideshow">
+      <img src="images/logo.jpg">
+      <img src="http://neamericandiocese.org/multimedia/images/parishs/large/parish-st-stephen-s-orthodox-church-33.jpg">
+      <img src="images/newchurch1.jpg">
+      <img src="images/contractsign.jpg">
+      <img src="images/newchurch2.jpg">
+      <img src="images/newchurch3.jpg">
+      <img src="images/sundayschool.jpg">
+      <img src="http://distilleryimage8.ak.instagram.com/95caf3e4683411e28fa722000a1fbcea_7.jpg">
+      <img src="http://distilleryimage5.ak.instagram.com/2286ab9c1c9611e2822f22000a9f09ca_7.jpg">
+      <img src="http://distilleryimage9.ak.instagram.com/e77d976c34b011e28b4622000a9e2975_7.jpg">
+    </div>
+  </div>-->
+  <div class="col-md-4">
+    <h4>Worship Schedule</h4>
+    <p><b><i>Sundays</i></b><br/>6:45AM - Morning Prayers (Matins)<br/>7:15AM - Holy Qurbana<br/>9:30AM-10:30AM - Sunday School, Youth, Committee, etc.</p><p><b><i>Saturdays</i></b><br/>SLS, Choir practice, etc.</p>
+  </div>
+  <div class="col-md-4">
+    <h4>Daily Scripture</h4>
+    <p><script type="text/javascript" src="http://www.christnotes.org/syndicate.php?content=dbv&amp;type=js2&amp;tw=200&amp;tbg=FFFFFF&amp;bw=0&amp;bc=000000&amp;ta=C&amp;tc=000000&amp;tf=Verdana&amp;ts=10&amp;ty=B&amp;va=L&amp;vc=000000&amp;vf=Verdana&amp;vs=10&amp;tt=5&amp;trn=NIV"></script></p>
+ </div>
+  <div class="col-md-4">
+    <h4>Calendar</h4>
+    <p><iframe src="https://www.google.com/calendar/embed?showTitle=0&amp;showPrint=0&amp;showTabs=0&amp;showCalendars=0&amp;mode=AGENDA&amp;height=400&amp;wkst=1&amp;bgcolor=%23FFFFFF&amp;src=revcmatjr%40gmail.com&amp;color=%232952A3&amp;ctz=America%2FNew_York" style=" border-width:0 " width="300" height="300" frameborder="0" scrolling="no"></iframe><div align="center"><a href="https://www.stmarysnova.org/indian-orthodox-lectionary#now" target="_blank">View Lectionary</a></div></p>
+  </div>
+</div>
 </div><!--End Container-->
 </div><!--End Wrap-->
 <div id="footer"><div class="container"><p class="text-muted credit" align="center">&copy; St. Stephen's Orthodox Church of India, Long Island, NY, Inc. | All Rights Reserved. | <a href="mailto:StStephensNY@yahoo.com">E-Mail Us</a></p></div></div>
